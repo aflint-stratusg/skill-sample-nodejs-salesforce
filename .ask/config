@@ -1,10 +1,10 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.c1d8819f-c084-4d0a-b791-a2a50d2c28d2",
       "was_cloned": false,
       "merge": {
-        "skillManifest": {
+        "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
@@ -13,6 +13,30 @@
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "8d77f279d0ee43a83c48a11f5a7396a4"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "4ea1ae62382da92332ea79cdec618f03"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:115526060417:function:ask-custom-AlexaSalesforceDemo-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-AlexaSalesforceDemo-default",
+            "handler": "index.handler",
+            "revisionId": "3220dfa6-1e6e-4b16-8c4d-cd549e3961b4",
+            "runtime": "nodejs8.10"
+          }
+        ]
       }
     }
   }

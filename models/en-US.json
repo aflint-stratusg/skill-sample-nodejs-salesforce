@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "salesforce demo",
+      "invocationName": "salesforce",
       "intents": [
         {
           "name": "AMAZON.StartOverIntent",

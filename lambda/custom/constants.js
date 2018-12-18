@@ -11,10 +11,10 @@
 module.exports = Object.freeze({
 
   // App-ID. TODO: set to your own Skill App ID from the developer portal.
-  appId: process.env.SKILL_ID || '',
+  appId: process.env.SKILL_ID || 'amzn1.ask.skill.c1d8819f-c084-4d0a-b791-a2a50d2c28d2',
 
   // Salesforce Constants
-  INSTANCE_URL: process.env.INSTANCE_URL || '', // TODO Set your own
+  INSTANCE_URL: process.env.INSTANCE_URL || 'https://stratusg.my.salesforce.com', // TODO Set your own
   VOICE_CODE_OBJECT_NAME: process.env.VOICE_CODE_OBJECT_NAME || 'voice_code__c',
   VOICE_CODE_FIELD_NAME: process.env.VOICE_CODE_FIELD_NAME || 'code__c',
 
